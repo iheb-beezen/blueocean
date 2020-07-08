@@ -1,0 +1,22 @@
+jenkins :
+c'est le remplacant de Hudson qui permet de faire de l'intégration continue CI
+
+Actuellement, tous les gestionnaire de dépôt (GitLab, GitHub, Bitbucket ..) intégre des pipeline 
+GitLab -> Gitlab-CI (intégration, livraison et déploiement continue)
+GitHub-> Github-Action (CI/CD)
+
+Node faire appel aux agents
+Stage block dans le quel on met les commande
+
+declarative pipeline :
+-	commence par le mot "pipeline {"
+-	à chaque étape on peut changer d'agent
+-	on peut faire des script
+scripted pipeline :
+-	commence par le mot "Node {"
+-	le script se lance sur un seul agent 
+-	pas de déclarative 
+
+jenkins file utilise Groovy
+
+le mot "sh" c'est comme le terminal
