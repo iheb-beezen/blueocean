@@ -11,7 +11,7 @@ pipeline {
       parallel {
         stage('Step 2.1') {
           steps {
-            sh 'echo \'Step 2.1\''
+            bat 'echo 1'
           }
         }
 
